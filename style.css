@@ -14,15 +14,15 @@ html, body {
 .clock-widget {
   width: 320px;
   margin: 0 auto;
-  background: rgba(255,255,255,0.85);
-  border-radius: 24px;
-  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.08), 0 1.5px 4px 0 rgba(0,0,0,0.04);
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
   padding: 32px 24px 20px 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 16px;
-  backdrop-filter: blur(4px);
+  backdrop-filter: none;
   transition: background 0.4s;
 }
 
